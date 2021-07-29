@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+#nav-bar {
+    width: 100%;
+    position: absolute;
+}
+ul {
+    font-size: 1.7em;
+    text-align: right;
+    margin-right: 50px;
+}
+li {
+    display: inline-block;
+    padding: 20px;
+    list-style: none;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+p {
+    font-size: 1.6em;
+    text-align: justify;
+}
+#content-main {
+    margin: 2em 5em;
+}

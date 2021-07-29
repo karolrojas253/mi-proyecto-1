@@ -1,0 +1,22 @@
+ul{
+list-style: none;
+
+}
+.item-1erNivel{
+    display:inline-block;
+    background-color: darkgray;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu-2doNivel{
+    position:absolute;
+
+}
+.item-2doNivel{
+    background-color: rgb(224, 212, 212);
+
+}
+a {
+    text-decoration: none;
+}

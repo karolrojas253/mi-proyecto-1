@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.content-main1{
+    background-color: aqua;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.content-hijo1{
+    background-color: lime;
+    position:absolute ;
+    top: 200;
+    left: 200;
+    width: 200px;
+    height: 200px;
+    margin:200px;
+
+}
+
+.content-hijo2{
+    background-color:purple;
+    position:absolute ;
+    top: 0%;
+    left: 100%;
+    width: 200px;
+    height: 200px;
+    margin:200px;
+
+}
+
+
+.content-main2{
+    background-color: blueviolet;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+}
+.content-main3{
+    background-color:darksalmon;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    bottom:0;
+    left: 0;
+}
+.content-main4{
+    background-color:gold;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:0;
+    right:0;
+
+}

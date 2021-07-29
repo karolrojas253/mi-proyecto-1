@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+table {
+    font-size: 1.7em;
+    border-collapse: collapse;
+    margin: 25px auto;
+    width: 70%;
+}
+th, td {
+    border: 2px solid rgb(115, 179, 235);
+    padding: 10px;
+    text-align: center;
+}
+.motos_familiares {
+    width: 50%;
+}
+.head-codigo,.head-codigo-sub {
+    background: lightseagreen;
+    color:black;
+    font-weight: 900;
+}
+.head-codigo {
+    border-top-left-radius: 20px;
+    border-bottom: 2px solid lightseagreen;
+}
+
+.head-tarifas,.head-tarifas-sub {
+    background: rgb(209, 149, 179);
+    color:black;
+   font-weight: 900;
+}
+.head-caracteristicas,.head-caracteristicas-sub {
+    background:rgb(139, 163, 204);
+    color: black;
+    font-weight: 900;
+}
+.head-caracteristicas-sub {
+    font-size: .7em;
+}
+td {
+    background:rgb(129, 199, 202);
+}
+
+.borde-inferior-izquierdo {
+        border-bottom-left-radius: 20px;
+}

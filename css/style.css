@@ -1,0 +1,59 @@
+* {
+    margin: 0; 
+    padding: 0;
+ }
+     /* clase de elementos */
+ h1 {
+     font-size: 75px; 
+ 
+  }
+ /* clase no atada a ningun elementos */
+ .centrado {
+     margin: 0 auto 0 auto;
+     text-align: center;
+ }
+ /* clase atada a un elemento */
+ p.color-fuente {
+ color: rgb(89, 114, 145);
+ text-align: center;
+ font-size: 35px;
+ font-style: italic;
+ 
+ }
+ img {
+     display: block;
+     margin: 0 auto 0 auto;
+ }
+  p.fuente-enlace {
+      font-size: 40px;
+      text-align: center;
+  } 
+  h2 {
+     font-family: 'Faster One', cursive,'Rye', cursive;
+     text-align: center;
+     font-size: 35px;
+ }
+ p.centrado {
+     font-family: 'Rye', cursive, Arial, Helvetica, sans-serif monospace;
+     font-size: 2.5em;
+     font-family: 'Rye', cursive;
+    
+ }
+ .fuente-audiowide {
+     font-family:'Audiowide', sans-serif;
+     font-size: 40px;
+ }
+ .peso-fuente {
+   text-align: center;
+   font-size: 2.5em;
+   font-family: Verdana, Tahoma, sans-serif;
+   font-weight: bold;
+   /* font-weight: 600; */
+   /* font-weight: 900; */
+ }
+ .fuente-crazy {
+     font-size: 2em;
+     font-family: 'Permanent Marker', cursive;
+     color: rgb(102, 71, 117);
+     font-size: normal;   
+ }

@@ -1,0 +1,32 @@
+#navbar {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    background: rgba(95, 218, 236, 0.5) ;
+    width: 100%;
+}
+ul {
+    font-size: 1,6em;
+    text-align: right;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    font-family: 'Ribeye Marrow', cursive;  
+    color: rgb(17, 17, 17);
+}
+li {
+    display: inline-block;
+    padding: 20px;
+}
+p {
+    font-size: 1.5em;
+    text-align: justify;
+}
+.content-main {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.img-vista {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}

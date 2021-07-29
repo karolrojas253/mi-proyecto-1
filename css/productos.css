@@ -1,0 +1,22 @@
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8, .box-9 {
+    width: 390px;
+    height: 236px;
+    display: inline-block;
+    margin: 25px;
+    line-height: 0;
+ 
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+    font-size: 1.7em;
+
+} 
+p{
+    font-size: 3em;
+    
+}

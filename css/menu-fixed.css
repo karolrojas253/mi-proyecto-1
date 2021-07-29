@@ -1,0 +1,45 @@
+#navbar {
+    background: rgb(84, 97, 162) ;
+    color: black;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0px;
+}
+#navbar-hidden {
+    background: rgb(45, 59, 152) ;
+    color: black;
+    width: 100%;
+    left: 0;
+    top: 0px;
+    visibility: hidden;
+}
+ul {
+    text-align: right;
+    font-family: Verdana, sans-serif;
+    font-weight: 600;
+    font-family: 'Ribeye Marrow', cursive; 
+}
+li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.6em;
+    padding-right:  20px;
+}
+p {
+    font-size: 1.5em;
+    clear: both;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.logo-moto {
+float: left;
+margin-top: 10px;
+margin-left: 30px;
+}
+.img-vista {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}

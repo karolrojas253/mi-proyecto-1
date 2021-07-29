@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#nav-bar {
+    color: black;
+    display: inline-block;
+    margin: 20px 20px 20px 10px;
+    width: 95%; 
+}
+ul {
+    list-style-type: none;
+    font-size: 1.4em;
+    text-align: center;
+    padding-bottom:  30px;
+    border-bottom: 2px  solid rgb(3, 8, 99);
+}
+li {
+    background-color:  rgb(120, 172, 194) ;
+    padding: 5px 15px;
+    margin: 2px;
+    display: inline-block;
+}
+li:hover {
+    font-size: 1.1em;
+    background-color: rgb(112, 132, 147); 
+}
+a {
+    text-decoration: none;
+    color: black;
+}

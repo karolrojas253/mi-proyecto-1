@@ -3,16 +3,30 @@
     padding: 0;
 }
 body{
-    background:black;
+    background: #252528;
 }
-
+h1{
+    color: rgb(233, 204, 208);
+    font-size: 2.2em;
+    text-align: right;
+    margin-top: 40px;
+    font-weight: 900;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+p{
+    color: mistyrose;
+    font-size: 1.3em;
+    text-align: justify;
+}
 nav {
-    background:rgba(141, 21, 21, 0.8);
+    background: rgb(134, 28, 2);
     position: fixed;
     height: 100%;
     top: 0;
-  z-index: 10;
-    /*right:100%; */
+    z-index: 10;
+    left: -19em;
+    transition: all .7s;
 }
 .menu {
     list-style: none;
@@ -26,14 +40,27 @@ nav {
     color: white;
     display: block;
     padding-left: 1.5em;
-    width: 100%;
+    /* width: 100%; */
     font-size: 1.3em;
-
+    transition: 5px;
+    cursor: pointer;
 }
-.fas, .fa {
+.menu li{
+
+box-shadow: -3px -5px 10px rgb(255,255,255,.2) inset;
+margin-bottom:5px;
+transition: all .1s;
+}
+
+.menu li:hover{
+    box-shadow: -3px -5px 10px rgb(255,255,255) inset;
+}
+.menu a:hover{
+    margin-left: 1em;
+}
+.fas, .fab {
     color:white;
     padding-right: .3em;
-
 }
 .icono-menu{
     position: fixed;
@@ -44,5 +71,13 @@ nav {
 }
 .fa-bars{
     font-size: 1.8em;
+  
 }
- 
+.mostrarNav{
+    left: 0;
+}
+.main-content{
+    width: 85%;
+    margin-right: 100px;
+    margin-left: 100px;
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #A9CCE3;
+}
+header{
+    width: 100%;
+}
+nav{
+    background:rgb(95, 144, 163)  ;
+    width: 100%;
+}
+h1{
+    font-size: 2.2em;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  color:rgb(46, 46, 46);
+}
+ul{
+    padding: 20px;
+    text-align: right;
+    list-style: none;
+}
+li{
+    display:inline-block;
+
+}
+nav ul li a {
+    color:  #2C3E50;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.icono{
+    margin-right: 7px;
+}
+
+.menu-bar{
+ display: none;
+}
+
+.children{
+    display: none;
+    position: absolute;
+    background:  #AEB6BF;
+    text-align: left;
+}
+ul li:hover .children{
+    display: block;
+    text-align: left;
+}
+.childre li{
+    display: block;
+    border-bottom: 1px solid rgb(255,255,255,.5);
+}
+.children li a {
+    display:block;
+    width:100%;
+}
+.children li a span {
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+}
+@media only screen and (max-width: 850px) {
+    body{
+        padding-top: 80px;
+    }
+    .menu-bar{
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background:rgb(95, 144, 163);
+    }
+    .titulo{
+        display: none;
+    }
+    .bt-menu{
+      display: block;
+      padding: 20px;
+      color:rgb(247, 245, 245);
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: none;
+      overflow: hidden;
+}
+.menu-bar span{
+    float: right;
+    font-size: 40px;
+}
+nav{
+    background-color:   #D6EAF8;
+    width: 80%;
+    height: calc(100% - 80px);
+    position: fixed;
+    /* right: 100%; */
+    margin: 0;
+}
+nav ul{
+    text-align: left;
+}
+nav ul li {
+    display: block;
+    border-bottom: 1px solid  #4b4ddf;
+}
+nav ul li.children{
+    position: relative;
+    width: 100%;
+}
+nav ul li a{
+    padding: 12px;
+    display: block;
+}
+.icon-chevron-small-down{
+    float: right;
+}
+/* nav ul li:hover .children {
+    display:none;
+} */
+}

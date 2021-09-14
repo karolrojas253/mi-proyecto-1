@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.container-flow-1{
+display: flex;
+background: rgb(153, 212, 212);
+flex-flow:  wrap;
+}
+.container-flow-2{
+    display: flex;
+    background-color: darkcyan;
+    flex-flow:   nowrap;
+    height: 500px;
+}
+.container-flow-3{
+    display: flex;
+    background: rgb(153, 212, 212);
+    flex-flow: column wrap;
+    
+
+    }
+    .container-flow-4{
+        display: flex;
+        background: rgb(153, 212, 212);
+        flex-flow: column nowrap;
+        height: 500px;
+        }
+        
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px;
+    font-size: 1.5em;
+    color: black;
+}

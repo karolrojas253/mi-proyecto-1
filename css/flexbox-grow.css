@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+.container-flex-1{
+    display: flex;
+    background-color: rgb(214, 155, 224);
+}
+.item{
+    height: 200px;
+    background-color: rgb(226, 215, 226);
+    margin: 20px;
+    font-size: 1.5em;
+    color: rgb(18, 18, 19);
+}
+.item-menu{
+    width: 200px;
+}
+ 
+.item-contain{
+    flex-grow: 1;
+}
+.item-sidebar{
+    
+    flex-grow: .5;
+}

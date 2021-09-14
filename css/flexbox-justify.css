@@ -1,0 +1,43 @@
+ h1{
+     text-align: center;
+ }
+ .container-flex-1, .container-flex-2,
+ .container-flex-3, .container-flex-4,.container-flex-5,.container-flex-6{
+      background-color: rgb(173, 209, 211);
+      display: flex;
+ }
+
+.container-flex-1{
+     
+    justify-content: space-between;
+}
+.container-flex-2{
+     
+    justify-content: space-around;
+}
+.container-flex-3{
+     
+    justify-content: flex-start;
+}
+.container-flex-4{
+     
+    justify-content: flex-end;
+}
+.container-flex-5{
+     
+    justify-content: center;
+    align-items: flex-end;
+    height: 900px;
+}
+.container-flex-6{
+     
+    justify-content: stretch;
+}
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+    margin: 20px;
+    font-size: 1.5em;
+    color: black;
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #dfd1e9;
+}
+h1{
+    color: black;
+    font-size: 2.2em;
+    text-align: right;
+    margin-top: 40px;
+    font-weight: 900;
+    margin-right: 100px;
+    margin-bottom: 25px;
+}
+p{
+    color: black;
+    font-size: 1.3em;
+    text-align: justify;
+
+}
+nav{
+    background:  #f7d0d6;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    z-index: 10;
+    left: -20em;
+    transition: all .7s;
+    overflow: scroll;
+    height: calc(100% - 0px);        
+}
+.menu{
+    list-style: none;
+    line-height: 60px;
+    margin: 7em auto 0 auto;
+    width: 16em;
+    padding-left: .1em;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding-left: 1.5em;
+    width: 100%;
+    font-size: 1.3em; 
+    transition: all .5s;
+    cursor: pointer;  
+    
+}
+.menu li{
+    box-shadow: -3px -5px 10px #987ec9 inset;
+    margin-bottom: 5px;
+    transition: all .7s;
+}
+menu li:hover{
+    box-shadow: -3px -5px 10px #795199 inset;
+}
+.menu a:hover{
+    margin-left: 1em;
+}
+.fas, .fab{
+    color: black;
+    padding-right: .3em;
+}
+.icono-menu{
+    position: fixed;
+    top: 50px;
+    left: 40px;
+    z-index: 20;     
+}
+.fa-bars{
+    font-size: 1.8em;
+}
+.mostrarNav{
+    left: 0;
+}
+.main-content{   
+    width: 85%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.centrado{
+    text-align: center;
+}
+p.fuente-enlace{
+    text-align: center;
+    font-size: 45px;
+}
+p.fuente-Give You Glory{
+    font-family: 'Give You Glory' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p.fuente-Italianno{
+    font-family: 'Italianno', Arial, Helvetica, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+/* Clase de Elemento */
+h1 {
+    font-size: 60px;
+    color: black;
+}
+/* Clase no atada a ningun elemnto */
+.centrado{
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+/* Clase atada a un Elmento */
+p.color-fuente{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+h3.centrado{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+h2.centrado{
+        text-align: center;
+        color: black;
+        text-align: 30px;
+}
+p.centrado{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+.centrado{
+    display: block;
+    margin: 0 auto 0 auto;   
+    align-content: center;
+}
+
+p.fuente-enlace{
+    text-align: center;
+    font-size: 45px;
+}
+p.fuente-Give You Glory{
+    font-family: 'Give You Glory' 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+p.fuente-Italianno{
+    font-family: 'Italianno', Arial, Helvetica, sans-serif ;
+    font-size: 4em;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+nav ul li .children{
+    display: none;
+    position: absolute;
+    background:  #e0aff3;
+    text-align: left;
+}
+nav ul li:hover .children{
+    display: block;
+    text-align: left;
+    width: 120%;
+}
+
